@@ -1,0 +1,32 @@
+
+
+
+.bgimg{
+	background-image: url("../img/thorbg2.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 650px;
+}
+.headerset{
+	padding-top: 180px;
+	box-sizing: border-box;
+	color: white;
+}
+.headerset h2{font-size: 42px;}
+.headerset h1{font-size: 70px;text-transform: uppercase;}
+
+/**********************Services******************/
+
+.services{
+	padding: 60px 0px 60px;
+	height: 650px;
+}
+.services h1{font-size: 45px; font-weight: bold;} 
+.rowsetting{margin: 70px 0px;}
+.imgsettings{
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+}
+.fa{margin-top: 36px;}
