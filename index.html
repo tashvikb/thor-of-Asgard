@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Marvel Comics | By Tashvik | Bootstrap Responsive Website</title>
+	<title>Thor | Marvel Comics | By Tashvik</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
-	<div class="bgimg">
+	<div class="bgimg" id="header">
 		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
 			<div class="container">
 				<a href="#" class="navbar-brand font-weight-bold text-warning">Thor of Asgard</a>
@@ -19,21 +20,19 @@
 				</button>
 				<div class="collapse navbar-collapse text-center" id="collapsenavbar">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a href="#" class="nav-link text-white">Home</a></li>
-						<li class="nav-item"><a href="#" class="nav-link text-white">About me</a></li>
-						<li class="nav-item"><a href="#" class="nav-link text-white">Mjölnir</a></li>
-						<li class="nav-item"><a href="#" class="nav-link text-white">Storm Breaker</a></li>
-						<li class="nav-item"><a href="#" class="nav-link text-white">About Asgard</a></li>
+						<li class="nav-item"><a href="#header" class="nav-link text-white">Home</a></li>
+						<li class="nav-item"><a href="#section" class="nav-link text-white">Services</a></li>
+						<li class="nav-item"><a href="#villains" class="nav-link text-white">Villains</a></li>
+						<li class="nav-item"><a href="#photos" class="nav-link text-white">Photos</a></li>
 					</ul>
 				</div>
 			</div></nav>
 		<div class="container text-center headerset">
-			<h2>How Dare you to Attack to me</h2>
-			<h1 class="font-weight-bold">Welcome to Asgard of Thor</h1>
-			<button class="btn btn-warning text-white btn-lg">Attack</button>
+			<h2 class="animated bounceInLeft">How Dare you to Attack to me</h2>
+			<h1 class="font-weight-bold animated bounceInRight delay-1s">Welcome to Asgard of Thor</h1>
 			<!-- change attack btn to scroll down btn with jquery as like thapa technical -->
 		</div></div>
-	<section class="container services text-center">
+	<section class="container services text-center" id="section">
 		<h1>Services</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
 
@@ -60,7 +59,7 @@
 				<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo numquam consequuntur earum quisquam repudiandae iure ea perspiciatis delectus, enim, debitis officia impedit, sed pariatur nam.</p>
 			</div>
 		</div></section>
-	<section class="villains bg-light">
+	<section class="villains bg-light" id="villains">
 		<div class="container text-center">
 			<div class="vheading">
 				<h1>My Villains</h1>
@@ -72,7 +71,7 @@
 						<img src="img/villains/destroyer.jpg" class="card-img img-fluid">
 						<div class="card-body">
 							<h2>Destroyer</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis doloribus incidunt dicta</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ipsa ad quos</p>
 						</div>
 					</div>
 				</div>
@@ -81,7 +80,7 @@
 						<img src="img/villains/loki.jpg" class="card-img img-fluid">
 						<div class="card-body">
 							<h2>Loki</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum odit natus, sint</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ipsa ad quos</p>
 						</div>
 					</div>
 				</div>
@@ -90,7 +89,7 @@
 						<img src="img/villains/hela.jpg" class="card-img img-fluid">
 						<div class="card-body">
 							<h2>Hela</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero velit iure ipsum.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ipsa ad quos</p>
 						</div>
 					</div>
 				</div>
@@ -99,13 +98,13 @@
 						<img src="img/villains/thanos.jpg" class="card-img img-fluid">
 						<div class="card-body">
 							<h2>Thanos</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero velit iure ipsum.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ipsa ad quos</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div></section>
-	<section class="myphotos container text-center">
+	<section class="myphotos container text-center" id="photos">
 		<div class="mpheader">
 			<h1>My Best Photos</h1>
 		</div>
