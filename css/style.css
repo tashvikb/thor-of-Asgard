@@ -1,6 +1,6 @@
 
 
-
+html{scroll-behavior: smooth;}
 .bgimg{
 	background-image: url("../img/thorbg2.jpg");
 	background-repeat: no-repeat;
